@@ -18,8 +18,8 @@ public class CashbackHackServiceTest {
     @org.testng.annotations.Test
     public void secondTestRemain() {
         CashbackHackService service = new CashbackHackService ();
-        int amount = 100;
-        int expected = 100;
+        int amount = 1100;
+        int expected = 900;
         int result = service.remain (amount);
         System.out.println (result);
 
