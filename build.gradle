@@ -5,6 +5,11 @@ plugins {
 group 'ru.netology'
 version '1.0-SNAPSHOT'
 
+sourceCompatibility ="11"
+
+compileJava.options.encoding="UFT-8"
+compileTestJava.options.encoding="UFT-8"
+
 repositories {
     mavenCentral()
 }
