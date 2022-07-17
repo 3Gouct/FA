@@ -13,14 +13,4 @@ public class CashbackHackServiceTest {
 
         assertEquals (result, expected);
     }
-
-    @org.testng.annotations.Test
-    public void secondTestRemain() {
-        CashbackHackService service = new CashbackHackService ();
-        int expected = 900;
-        int result = service.remain (1100);
-        System.out.println (result);
-
-        assertEquals (result, expected);
-    }
 }
